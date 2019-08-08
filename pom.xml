@@ -95,6 +95,18 @@
          <version>1.6.5</version>
          <scope>test</scope>
         </dependency>
+
+        <dependency>
+          <groupId>org.hbase</groupId>
+          <artifactId>asynchbase</artifactId>
+          <version>1.8.0</version>
+          <exclusions>
+            <exclusion>
+              <artifactId>netty</artifactId>
+              <groupId>org.jboss.netty</groupId>
+            </exclusion>
+          </exclusions>
+      </dependency>
         
     </dependencies>
     
