@@ -218,7 +218,7 @@
 		              <include>org.xerial.snappy:*</include>
 		              <include>net.sf.jopt-simple:*</include>
 		              <include>com.101tec:*</include>
-		              <include>log4j:*</include>
+		              <!-- <include>log4j:*</include> -->
 		            </includes>
 		          </artifactSet>
 		        </configuration>
